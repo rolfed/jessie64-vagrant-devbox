@@ -1,2 +1,3 @@
 vagrant/.vagrant/*
 npm-debug.log
+vagrant/3_local-vagrant-bootstrap.sh
