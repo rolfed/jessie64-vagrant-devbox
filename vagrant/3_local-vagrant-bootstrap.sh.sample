@@ -2,6 +2,8 @@
 # This file runs at the end of vagrant-bootstrap.sh, any local customization to your box's setup should happen here.
 # ------------------------------------------------------------------------------------------------------------------
 
+figlet -f banner Local File Runs
+
 # make nano default editor (sorry nerds)
 # cd /home/vagrant && echo 'export EDITOR=nano' >> .profile
 

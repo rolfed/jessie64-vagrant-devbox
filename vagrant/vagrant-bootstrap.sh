@@ -112,8 +112,9 @@ echo "cd /var/www" >> /home/vagrant/.bashrc
 . /var/www/vagrant/2_project-vagrant-bootstrap.sh
 
 # # Run Local Bootstrap
-. /var/www/vagrant/3_local-vagrant-bootstrap.sh
-
+if [ -f /var/www/vagrant/3_local-vagrant-bootstrap.sh ]; then
+	. /var/www/vagrant/3_local-vagrant-bootstrap.sh
+fi
 
 # # FINISH HIM!
 sudo service apache2 reload
